@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import line from "../iamges/Line.png"
 const WorkingProcess = () => {
-  const [isOpen1, setIsOpen1] = useState(true); // State for first item
-  const [isOpen2, setIsOpen2] = useState(false); // State for second item
+  const [isOpen1, setIsOpen1] = useState(true); 
+  const [isOpen2, setIsOpen2] = useState(false);
 
   return (
     <section className="p-6 px-8 md:px-20 m-6 md:m-14 md:max-w-screen-2xl">

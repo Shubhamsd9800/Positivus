@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaLinkedin, FaFacebookF, FaTwitter } from 'react-icons/fa';
-import whiteIcon from '../iamges/whiteIcon.png'; // Replace with your actual image path
+import whiteIcon from '../iamges/whiteIcon.png';
 
 const Footer = () => {
   return (
@@ -9,7 +9,6 @@ const Footer = () => {
         <div className="max-w-[1200px] mx-auto">
           {/* Top Section: Logo, Navigation Links, and Social Icons */}
           <div className="flex flex-col md:flex-row justify-between items-center mb-8 space-y-6 md:space-y-0">
-            {/* Logo and Navigation Links */}
             {/* <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-8 text-center md:text-left"> */}
               <div className="flex items-center justify-center space-x-2">
                 <img src={whiteIcon} alt="Positivus Logo" className="h-[30px]" />
@@ -24,7 +23,6 @@ const Footer = () => {
               </nav>
             {/* </div> */}
 
-            {/* Social Icons */}
             <div className="flex space-x-[12px] justify-center md:justify-end">
               <FaLinkedin size={24} />
               <FaFacebookF size={24} />
@@ -32,7 +30,6 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Bottom Section: Contact Info and Subscription Form */}
           <div className="flex flex-col md:flex-row justify-between items-center text-center md:text-left space-y-6 md:space-y-0">
             {/* Contact Info */}
             <div className="space-y-4 mb-8 md:mb-0">
@@ -58,7 +55,7 @@ const Footer = () => {
 
           </div>
 
-          {/* Footer Bottom */}
+
           <div className="border-t border-gray-700 pt-[16px] text-center text-sm text-gray-500 mt-[32px]">
             © {new Date().getFullYear()} Positivus. All Rights Reserved.
             &nbsp;<a href="#" className="hover:text-lime-400">Privacy Policy</a>.

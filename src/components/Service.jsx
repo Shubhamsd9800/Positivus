@@ -1,6 +1,6 @@
 import React from 'react';
-import seoIcon from '../iamges/Card.png'; // Replace with your actual image path
-import ppcIcon from '../iamges/Card2.png'; // Replace with your actual image path
+import seoIcon from '../iamges/Card.png';
+import ppcIcon from '../iamges/Card2.png';
 
 const ServicesSection = () => {
   return (

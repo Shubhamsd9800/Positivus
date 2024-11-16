@@ -10,7 +10,6 @@ const InfiniteScrollLogos = () => {
 
   useEffect(() => {
     if (logosRef.current) {
-      // Duplicate the logo list for seamless scrolling
       const originalLogos = logosRef.current;
       const clone = originalLogos.cloneNode(true);
       clone.setAttribute("aria-hidden", "true");

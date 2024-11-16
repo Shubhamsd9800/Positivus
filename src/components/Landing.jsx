@@ -119,13 +119,11 @@ const LandingPage = () => {
           </button>
         </div>
 
-        {/* Illustration */}
         <div className="hidden md:flex md:w-3/5 mt-10 md:mt-0 justify-center">
           <img src={icon1} alt="Digital Marketing" className="w-full max-w-[520px] " />
         </div>
       </section>
 
-      {/* Logos Section */}
       <InfiniteScrollLogos/>
       <Service/>
       <Working/>

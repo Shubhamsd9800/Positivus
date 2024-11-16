@@ -5,7 +5,7 @@ import whiteIcon from '../iamges/whiteIcon.png'; // Replace with your actual ima
 const Footer = () => {
   return (
     <div className="flex items-center justify-center bg-gray-100 mt-16">
-      <footer className="bg-gray-900 text-white w-full md:max-w-screen-xl p-6 px-10 md:px-20 rounded-t-3xl">
+      <footer className="bg-gray-900 text-white w-full md:max-w-screen-xl p-6 px-10 md:px-20 md:rounded-t-3xl">
         <div className="max-w-[1200px] mx-auto">
           {/* Top Section: Logo, Navigation Links, and Social Icons */}
           <div className="flex flex-col md:flex-row justify-between items-center mb-8 space-y-6 md:space-y-0">
